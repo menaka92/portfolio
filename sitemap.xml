@@ -7,12 +7,12 @@
   <!-- For single-page sites, only list the root URL -->
 
   <url>
-    <loc>https://menakalakshan.com/</loc>
+    <loc>https://menakalakshan.online/</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://menakalakshan.com/assets/menaka-lakshan-og.jpg</image:loc>
+      <image:loc>https://menakalakshan.online/assets/menaka-lakshan-og.jpg</image:loc>
       <image:title>Menaka Lakshan — Web Developer &amp; Software Engineer Sri Lanka</image:title>
       <image:caption>Menaka Lakshan, freelance web developer in Sri Lanka specializing in small business websites, AI solutions and software engineering.</image:caption>
     </image:image>
