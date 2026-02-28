@@ -1,0 +1,39 @@
+# robots.txt — menakalakshan.online
+# Generated for Menaka Lakshan Portfolio
+# Last updated: 2026-02-28
+
+# ── Allow all search engines full access ────────────────────────────────────
+User-agent: *
+Allow: /
+
+# ── Block access to private/sensitive folders ────────────────────────────────
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.json$
+
+# ── Google-specific rules ────────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+# ── Bing-specific rules ──────────────────────────────────────────────────────
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+# ── Block bad/junk bots ──────────────────────────────────────────────────────
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# ── Sitemap location ─────────────────────────────────────────────────────────
+Sitemap: https://menakalakshan.online/sitemap.xml
