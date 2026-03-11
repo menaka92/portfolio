@@ -4,15 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
   <!-- Canonical URL -->
-  <link rel="sitemap" type="application/xml" href="https://menakalakshan.com/sitemap.xml"/>
-  <link rel="canonical" href="https://menakalakshan.com/"/>
+  <link rel="sitemap" type="application/xml" href="https://menakalakshan.online/sitemap.xml"/>
+  <link rel="canonical" href="https://menakalakshan.online"/>
 
   <!-- Open Graph Tags (Facebook, LinkedIn, WhatsApp) -->
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://menakalakshan.com/"/>
+  <meta property="og:url" content="https://menakalakshan.online/"/>
   <meta property="og:title" content="Menaka Lakshan | Web Developer &amp; Software Engineer Sri Lanka"/>
   <meta property="og:description" content="Menaka Lakshan — freelance web developer in Sri Lanka. I build affordable websites for small businesses. AI &amp; software solutions. Get your business online today!"/>
-  <meta property="og:image" content="https://menakalakshan.com/assets/menaka-lakshan-og.jpg"/>
+  <meta property="og:image" content="https://menakalakshan.online/assets/menaka-lakshan-og.jpg"/>
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
   <meta property="og:image:alt" content="Menaka Lakshan — Web Developer &amp; Software Engineer Sri Lanka"/>
@@ -21,10 +21,10 @@
 
   <!-- Twitter / X Card Tags -->
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:url" content="https://menakalakshan.com/"/>
+  <meta name="twitter:url" content="https://menakalakshan.online/"/>
   <meta name="twitter:title" content="Menaka Lakshan | Web Developer &amp; Software Engineer Sri Lanka"/>
   <meta name="twitter:description" content="Menaka Lakshan — freelance web developer in Sri Lanka. I build affordable websites for small businesses. AI &amp; software solutions. Get your business online today!"/>
-  <meta name="twitter:image" content="https://menakalakshan.com/assets/menaka-lakshan-og.jpg"/>
+  <meta name="twitter:image" content="https://menakalakshan.online/assets/menaka-lakshan-og.jpg"/>
   <meta name="twitter:image:alt" content="Menaka Lakshan — Web Developer &amp; Software Engineer Sri Lanka"/>
   <meta name="twitter:creator" content="@menakalakshan"/>
   <meta name="twitter:site" content="@menakalakshan"/>
@@ -62,8 +62,8 @@
       "@type": "Person",
       "name": "Menaka Lakshan",
       "alternateName": ["Menaka HK", "Menaka Lakshan HK", "MENAKA LAKSHAN"],
-      "url": "https://menakalakshan.com",
-      "image": "https://menakalakshan.com/assets/menaka-lakshan-og.jpg",
+      "url": "https://menakalakshan.online",
+      "image": "https://menakalakshan.online/assets/menaka-lakshan-og.jpg",
       "jobTitle": "Web Developer & Software Engineer",
       "description": "Menaka Lakshan is a freelance web developer and software engineer in Sri Lanka who specializes in building professional, affordable websites for small businesses, along with AI solutions and software engineering services.",
       "knowsAbout": [
@@ -110,14 +110,14 @@
         "name": "Web Development Services for Small Businesses",
         "description": "Professional, affordable website design and development for small businesses. Includes AI integration, software engineering, and ongoing support.",
         "areaServed": "Worldwide",
-        "url": "https://menakalakshan.com/#contact"
+        "url": "https://menakalakshan.online/#contact"
       }
     },
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Menaka Lakshan — Web Developer Sri Lanka",
-      "url": "https://menakalakshan.com",
+      "url": "https://menakalakshan.online",
       "description": "Portfolio of Menaka Lakshan, a freelance web developer and software engineer in Sri Lanka specializing in small business websites, AI solutions, and software engineering.",
       "author": {
         "@type": "Person",
@@ -125,7 +125,7 @@
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://menakalakshan.com/?s={search_term_string}",
+        "target": "https://menakalakshan.online/?s={search_term_string}",
         "query-input": "required name=search_term_string"
       },
       "inLanguage": "en"
@@ -134,8 +134,8 @@
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "Menaka Lakshan Web Development",
-      "url": "https://menakalakshan.com",
-      "image": "https://menakalakshan.com/assets/menaka-lakshan-og.jpg",
+      "url": "https://menakalakshan.online",
+      "image": "https://menakalakshan.online/assets/menaka-lakshan-og.jpg",
       "description": "Professional web development services for small businesses in Sri Lanka and worldwide. Specializing in affordable business websites, AI integration, and software engineering.",
       "founder": {
         "@type": "Person",
@@ -164,775 +164,8 @@
   ]
   </script>
 
-<style>
-/* Menaka Lakshan Portfolio — style.css */
-/* menakalakshan.com */
-
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --bg: #0a0a0a;
-      --surface: #111111;
-      --accent: #e8ff47;
-      --accent2: #ff4747;
-      --text: #f0f0f0;
-      --muted: #666;
-      --border: #222;
-    }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'DM Mono', monospace;
-      overflow-x: hidden;
-      cursor: none;
-    }
-
-    /* Custom cursor */
-    .cursor {
-      position: fixed;
-      width: 12px; height: 12px;
-      background: var(--accent);
-      border-radius: 50%;
-      pointer-events: none;
-      z-index: 9999;
-      transform: translate(-50%, -50%);
-      transition: width 0.2s, height 0.2s, background 0.2s;
-      mix-blend-mode: difference;
-    }
-    .cursor.grow { width: 40px; height: 40px; }
-
-    /* Nav */
-    nav {
-      position: fixed; top: 0; left: 0; right: 0;
-      z-index: 100;
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 1.5rem 4rem;
-      background: rgba(10,10,10,0.85);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-    }
-    .nav-logo {
-      font-family: 'Syne', sans-serif;
-      font-weight: 800;
-      font-size: 1.4rem;
-      color: var(--accent);
-      letter-spacing: -0.5px;
-    }
-    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
-    .nav-links a {
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      transition: color 0.2s;
-    }
-    .nav-links a:hover { color: var(--accent); }
-
-    /* Carousel */
-    #carousel {
-      position: relative;
-      width: 100%;
-      margin-top: 72px; /* nav height */
-      overflow: hidden;
-      height: 520px;
-      background: var(--bg);
-      border-bottom: 1px solid var(--border);
-    }
-    .carousel-track {
-      display: flex;
-      height: 100%;
-      transition: transform 0.7s cubic-bezier(0.77, 0, 0.18, 1);
-      will-change: transform;
-    }
-    .carousel-slide {
-      min-width: 100%;
-      height: 100%;
-      position: relative;
-      display: flex;
-      align-items: center;
-      padding: 0 4rem;
-      overflow: hidden;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-    @keyframes kenburns {
-      from { transform: scale(1); }
-      to { transform: scale(1.04); }
-    }
-    .carousel-slide { animation: kenburns 10s ease-in-out infinite alternate; }
-    .carousel-slide::before {
-      content: '';
-      position: absolute; inset: 0;
-      background: linear-gradient(120deg, rgba(5,5,5,0.88) 40%, rgba(5,5,5,0.55) 100%);
-      z-index: 1;
-    }
-    .carousel-bg {
-      position: absolute; inset: 0;
-      font-family: 'Syne', sans-serif;
-      font-size: 22vw;
-      font-weight: 800;
-      color: transparent;
-      -webkit-text-stroke: 1px rgba(255,255,255,0.06);
-      display: flex; align-items: center; justify-content: flex-end;
-      padding-right: 2rem;
-      user-select: none; pointer-events: none;
-      z-index: 2;
-    }
-    .carousel-content {
-      position: relative; z-index: 2;
-      max-width: 680px;
-    }
-    .carousel-label {
-      display: inline-block;
-      font-size: 0.65rem;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: #000;
-      background: var(--accent);
-      padding: 0.3rem 0.8rem;
-      margin-bottom: 1.2rem;
-    }
-    .carousel-slide:nth-child(2) .carousel-label { background: var(--accent2); }
-    .carousel-slide:nth-child(3) .carousel-label { background: #47b8ff; }
-    .carousel-title {
-      font-family: 'Syne', sans-serif;
-      font-size: clamp(2rem, 5vw, 4rem);
-      font-weight: 800;
-      line-height: 1.05;
-      letter-spacing: -2px;
-      margin-bottom: 1rem;
-    }
-    .carousel-title em {
-      font-style: normal;
-      color: var(--accent);
-    }
-    .carousel-slide:nth-child(2) .carousel-title em { color: var(--accent2); }
-    .carousel-slide:nth-child(3) .carousel-title em { color: #47b8ff; }
-    .carousel-desc {
-      font-size: 0.85rem;
-      color: var(--muted);
-      line-height: 1.8;
-      max-width: 480px;
-      margin-bottom: 2rem;
-    }
-    .carousel-cta {
-      display: inline-flex; align-items: center; gap: 0.6rem;
-      font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase;
-      color: var(--text); text-decoration: none;
-      border-bottom: 1px solid var(--accent);
-      padding-bottom: 2px;
-      transition: color 0.2s;
-    }
-    .carousel-cta:hover { color: var(--accent); }
-
-    /* Nav arrows */
-    .carousel-arrow {
-      position: absolute; top: 50%; transform: translateY(-50%);
-      z-index: 10;
-      background: rgba(10,10,10,0.7);
-      border: 1px solid var(--border);
-      color: var(--text);
-      width: 50px; height: 50px;
-      display: flex; align-items: center; justify-content: center;
-      cursor: none;
-      font-size: 1.2rem;
-      transition: border-color 0.2s, background 0.2s;
-      backdrop-filter: blur(6px);
-    }
-    .carousel-arrow:hover { border-color: var(--accent); color: var(--accent); }
-    .carousel-arrow.prev { left: 2rem; }
-    .carousel-arrow.next { right: 2rem; }
-
-    /* Dots */
-    .carousel-dots {
-      position: absolute; bottom: 1.5rem; left: 50%; transform: translateX(-50%);
-      display: flex; gap: 0.6rem; z-index: 10;
-    }
-    .carousel-dot {
-      width: 28px; height: 3px;
-      background: var(--border);
-      cursor: none;
-      transition: background 0.3s, width 0.3s;
-    }
-    .carousel-dot.active { background: var(--accent); width: 48px; }
-
-    /* Slide counter */
-    .carousel-counter {
-      position: absolute; bottom: 1.5rem; right: 2rem;
-      font-size: 0.65rem; color: var(--muted); letter-spacing: 2px;
-      z-index: 10;
-    }
-
-    /* Sections */
-    section { padding: 7rem 4rem; max-width: 1200px; margin: 0 auto; }
-
-    /* Hero */
-    #hero {
-      min-height: 100vh;
-      display: flex; flex-direction: column; justify-content: center;
-      position: relative;
-      max-width: 100%;
-      padding: 0 4rem;
-      overflow: hidden;
-    }
-    .hero-bg-text {
-      position: absolute;
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: 'Syne', sans-serif;
-      font-size: clamp(100px, 20vw, 260px);
-      font-weight: 800;
-      color: transparent;
-      -webkit-text-stroke: 1px #1c1c1c;
-      white-space: nowrap;
-      pointer-events: none;
-      user-select: none;
-      z-index: 0;
-    }
-    .hero-content { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; }
-    .hero-tag {
-      display: inline-block;
-      background: var(--accent);
-      color: #000;
-      font-size: 0.7rem;
-      font-weight: 500;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      padding: 0.4rem 1rem;
-      margin-bottom: 2rem;
-      animation: fadeUp 0.6s ease both;
-    }
-    .hero-name {
-      font-family: 'Syne', sans-serif;
-      font-size: clamp(3rem, 8vw, 7rem);
-      font-weight: 800;
-      line-height: 0.95;
-      letter-spacing: -3px;
-      animation: fadeUp 0.6s 0.1s ease both;
-    }
-    .hero-name span { color: var(--accent); }
-    .hero-subtitle {
-      margin-top: 1.5rem;
-      font-size: 1rem;
-      color: var(--muted);
-      max-width: 500px;
-      line-height: 1.7;
-      animation: fadeUp 0.6s 0.2s ease both;
-    }
-    .hero-cta {
-      margin-top: 3rem;
-      display: flex; gap: 1rem;
-      animation: fadeUp 0.6s 0.3s ease both;
-    }
-    .btn {
-      display: inline-block;
-      padding: 1rem 2.5rem;
-      text-decoration: none;
-      font-size: 0.8rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      font-family: 'DM Mono', monospace;
-      transition: all 0.2s;
-      border: 1px solid transparent;
-    }
-    .btn-primary { background: var(--accent); color: #000; }
-    .btn-primary:hover { background: transparent; color: var(--accent); border-color: var(--accent); }
-    .btn-outline { border-color: var(--border); color: var(--muted); }
-    .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
-
-    .hero-scroll {
-      position: absolute; bottom: 3rem; left: 4rem;
-      display: flex; align-items: center; gap: 1rem;
-      font-size: 0.65rem; color: var(--muted); letter-spacing: 2px; text-transform: uppercase;
-      animation: fadeUp 0.6s 0.5s ease both;
-    }
-    .scroll-line { width: 60px; height: 1px; background: var(--muted); }
-
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(30px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    /* Section header */
-    .section-header {
-      display: flex; align-items: center; gap: 1.5rem;
-      margin-bottom: 4rem;
-    }
-    .section-num {
-      font-size: 0.7rem; color: var(--accent); letter-spacing: 2px;
-    }
-    .section-title {
-      font-family: 'Syne', sans-serif;
-      font-size: clamp(2rem, 4vw, 3.5rem);
-      font-weight: 800;
-      letter-spacing: -1px;
-    }
-    .section-line { flex: 1; height: 1px; background: var(--border); }
-
-    /* ── ABOUT SECTION ─────────────────────────────── */
-
-    /* Bio tag */
-    .about-tag {
-      font-size: 0.7rem; color: var(--accent);
-      letter-spacing: 2px; margin-bottom: 1.5rem;
-    }
-
-    /* Top two-column layout */
-    .about-top {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 5rem;
-      margin-bottom: 4rem;
-      align-items: start;
-    }
-
-    /* Bio */
-    .about-bio p {
-      font-size: 0.92rem; line-height: 1.9;
-      color: #aaa; margin-bottom: 1.2rem;
-    }
-    .about-bio p span { color: var(--accent); }
-    .about-actions {
-      display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;
-    }
-
-    /* Services */
-    .service-list { display: flex; flex-direction: column; gap: 1.5rem; }
-    .service-item {
-      display: flex; gap: 1.2rem; align-items: flex-start;
-      padding: 1.4rem;
-      border: 1px solid var(--border);
-      transition: border-color 0.2s, transform 0.2s;
-      position: relative; overflow: hidden;
-    }
-    .service-item::before {
-      content: '';
-      position: absolute; bottom: 0; left: 0;
-      width: 0; height: 2px;
-      background: var(--accent);
-      transition: width 0.3s ease;
-    }
-    .service-item:hover { border-color: #2a2a2a; transform: translateX(4px); }
-    .service-item:hover::before { width: 100%; }
-    .service-icon {
-      font-size: 1.3rem; color: var(--accent);
-      min-width: 28px; margin-top: 2px;
-      line-height: 1;
-    }
-    .service-title {
-      font-family: 'Syne', sans-serif;
-      font-size: 0.95rem; font-weight: 700;
-      margin-bottom: 0.4rem; color: var(--text);
-    }
-    .service-desc {
-      font-size: 0.75rem; color: var(--muted); line-height: 1.7;
-    }
-
-    /* Stats bar */
-    .about-stats-bar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border: 1px solid var(--border);
-      padding: 2.5rem 3rem;
-      background: var(--surface);
-      position: relative;
-      overflow: hidden;
-    }
-    .about-stats-bar::before {
-      content: '';
-      position: absolute; top: 0; left: 0;
-      width: 100%; height: 3px;
-      background: linear-gradient(90deg, var(--accent), transparent);
-    }
-    .stat-item {
-      display: flex; align-items: center; gap: 1.2rem;
-      flex: 1; justify-content: center;
-    }
-    .stat-num {
-      font-family: 'Syne', sans-serif;
-      font-size: 2.8rem; font-weight: 800;
-      color: var(--accent); line-height: 1;
-      white-space: nowrap;
-    }
-    .stat-divider {
-      width: 1px; height: 40px;
-      background: var(--border);
-    }
-    .stat-label {
-      font-size: 0.7rem; color: var(--muted);
-      letter-spacing: 1px; line-height: 1.6;
-      text-transform: uppercase;
-    }
-    .stat-sep {
-      width: 1px; height: 60px;
-      background: var(--border);
-      flex-shrink: 0;
-    }
-
-    /* Skills */
-    #skills { background: var(--surface); max-width: 100%; }
-    #skills > * { max-width: 1200px; margin-left: auto; margin-right: auto; }
-    #skills .section-header { max-width: 1200px; margin-left: auto; margin-right: auto; }
-    .skills-grid {
-      max-width: 1200px; margin: 0 auto;
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;
-    }
-    .skill-category {
-      border: 1px solid var(--border);
-      padding: 2rem;
-      transition: border-color 0.2s, transform 0.2s;
-    }
-    .skill-category:hover { border-color: var(--accent); transform: translateY(-4px); }
-    .skill-cat-title {
-      font-family: 'Syne', sans-serif;
-      font-size: 1rem; font-weight: 700;
-      margin-bottom: 1.5rem;
-      color: var(--accent);
-      display: flex; align-items: center; gap: 0.5rem;
-    }
-    .skill-cat-title::before {
-      content: '//';
-      color: var(--muted);
-      font-weight: 400;
-    }
-    .skill-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .skill-tag {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      padding: 0.3rem 0.75rem;
-      font-size: 0.7rem;
-      color: #aaa;
-      transition: all 0.2s;
-    }
-    .skill-tag:hover { border-color: var(--accent); color: var(--accent); }
-
-    /* Education */
-    .edu-list { display: flex; flex-direction: column; gap: 1.5rem; }
-    .edu-item {
-      border: 1px solid var(--border);
-      padding: 2rem 2.5rem;
-      display: grid; grid-template-columns: 1fr auto;
-      gap: 1rem; align-items: start;
-      transition: border-color 0.2s;
-      position: relative; overflow: hidden;
-    }
-    .edu-item::after {
-      content: '';
-      position: absolute; bottom: 0; left: 0;
-      width: 0; height: 2px;
-      background: var(--accent);
-      transition: width 0.3s;
-    }
-    .edu-item:hover { border-color: #333; }
-    .edu-item:hover::after { width: 100%; }
-    .edu-degree {
-      font-family: 'Syne', sans-serif;
-      font-size: 1.1rem; font-weight: 700;
-      margin-bottom: 0.3rem;
-    }
-    .edu-school { color: var(--accent); font-size: 0.85rem; margin-bottom: 0.5rem; }
-    .edu-desc { color: var(--muted); font-size: 0.78rem; line-height: 1.7; }
-    .edu-year {
-      font-size: 0.7rem; color: var(--muted);
-      border: 1px solid var(--border);
-      padding: 0.3rem 0.75rem;
-      white-space: nowrap; height: fit-content;
-    }
-
-    /* Projects */
-    .projects-grid {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.5rem;
-    }
-    .project-card {
-      border: 1px solid var(--border);
-      padding: 2.5rem;
-      position: relative; overflow: hidden;
-      transition: border-color 0.3s, transform 0.3s;
-      display: flex; flex-direction: column;
-    }
-    .project-card:hover { border-color: var(--accent); transform: translateY(-6px); }
-    .project-num {
-      font-size: 0.65rem; color: var(--muted); letter-spacing: 2px; margin-bottom: 1rem;
-    }
-    .project-title {
-      font-family: 'Syne', sans-serif;
-      font-size: 1.4rem; font-weight: 800; margin-bottom: 1rem;
-    }
-    .project-desc { color: #888; font-size: 0.82rem; line-height: 1.8; flex: 1; }
-    .project-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1.5rem 0; }
-    .project-tag {
-      background: rgba(232,255,71,0.08);
-      border: 1px solid rgba(232,255,71,0.2);
-      color: var(--accent);
-      font-size: 0.65rem; padding: 0.2rem 0.6rem;
-      letter-spacing: 1px;
-    }
-    .project-link {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      color: var(--text); text-decoration: none;
-      font-size: 0.75rem; letter-spacing: 1px;
-      margin-top: auto;
-      transition: color 0.2s;
-    }
-    .project-link:hover { color: var(--accent); }
-    .project-link::after { content: '→'; transition: transform 0.2s; }
-    .project-link:hover::after { transform: translateX(4px); }
-
-    /* Featured project */
-    .project-card.featured {
-      grid-column: 1 / -1;
-      display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;
-      background: linear-gradient(135deg, #111 0%, #0f0f0f 100%);
-    }
-    .project-card.featured .project-title { font-size: 2rem; }
-    .project-featured-badge {
-      display: inline-block;
-      background: var(--accent); color: #000;
-      font-size: 0.6rem; letter-spacing: 2px; padding: 0.2rem 0.6rem;
-      margin-bottom: 0.75rem; text-transform: uppercase;
-    }
-
-    /* Contact */
-    #contact { text-align: center; }
-    #contact .section-header { justify-content: center; }
-    .contact-headline {
-      font-family: 'Syne', sans-serif;
-      font-size: clamp(2.5rem, 6vw, 5rem);
-      font-weight: 800;
-      letter-spacing: -2px;
-      margin-bottom: 1rem;
-    }
-    .contact-headline span { color: var(--accent); }
-    .contact-sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 3rem; }
-    .contact-links { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
-    .contact-link {
-      display: flex; align-items: center; gap: 0.75rem;
-      color: var(--muted); text-decoration: none;
-      border: 1px solid var(--border);
-      padding: 1rem 2rem;
-      font-size: 0.8rem;
-      transition: all 0.2s;
-    }
-    .contact-link:hover { border-color: var(--accent); color: var(--accent); }
-
-    /* Footer */
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 2rem 4rem;
-      display: flex; justify-content: space-between; align-items: center;
-      color: var(--muted); font-size: 0.7rem;
-    }
-
-
-    /* Fixed person background image */
-    #page-content {
-      position: relative;
-    }
-    #person-bg {
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      z-index: 0;
-      pointer-events: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      /* Only visible when scrolled past carousel */
-    }
-    #person-bg img {
-      height: 92vh;
-      max-height: 900px;
-      width: auto;
-      object-fit: contain;
-      opacity: 0.08;
-      filter: grayscale(100%) contrast(1.2);
-      user-select: none;
-      pointer-events: none;
-    }
-    /* All sections need z-index above the background */
-    #page-content section,
-    #page-content footer {
-      position: relative;
-      z-index: 1;
-    }
-
-
-    /* Screen reader only — visible to Google & screen readers, hidden visually */
-    .sr-only {
-      position: absolute;
-      width: 1px; height: 1px;
-      padding: 0; margin: -1px;
-      overflow: hidden;
-      clip: rect(0,0,0,0);
-      white-space: nowrap;
-      border: 0;
-    }
-    .accent { color: var(--accent); }
-
-    /* Performance — skip rendering off-screen sections until scrolled to */
-    #skills, #education, #projects, #contact {
-      content-visibility: auto;
-      contain-intrinsic-size: 0 500px;
-    }
-
-    /* Reveal animation */
-    .reveal {
-      opacity: 0; transform: translateY(40px);
-      transition: opacity 0.7s ease, transform 0.7s ease;
-    }
-    .reveal.visible { opacity: 1; transform: translateY(0); }
-
-
-        /* Respect user's reduced motion preference */
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-      }
-    }
-
-
-
-    /* ═══════════════════════════════════════════
-       HAMBURGER MENU STYLES
-    ═══════════════════════════════════════════ */
-    .nav-hamburger {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      background: none;
-      border: none;
-      cursor: none;
-      padding: 4px;
-      z-index: 200;
-    }
-    .nav-hamburger span {
-      display: block;
-      width: 24px; height: 2px;
-      background: var(--text);
-      transition: all 0.3s ease;
-      transform-origin: center;
-    }
-    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-    .nav-hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
-    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-    .nav-overlay {
-      display: none;
-      position: fixed; inset: 0;
-      background: rgba(0,0,0,0.6);
-      z-index: 140;
-    }
-    .nav-overlay.open { display: block; }
-
-    /* ═══════════════════════════════════════════
-       TABLET (max 900px)
-    ═══════════════════════════════════════════ */
-    @media (max-width: 900px) {
-      nav { padding: 1.2rem 2rem; }
-      .nav-links { gap: 1.5rem; }
-      .nav-links a { font-size: 0.7rem; }
-      #carousel { height: 420px; }
-      .carousel-content { max-width: 520px; }
-      .carousel-title { font-size: clamp(1.8rem, 4vw, 2.8rem); }
-      .about-stats { grid-template-columns: 1fr 1fr; }
-      .projects-grid { grid-template-columns: 1fr; }
-      .project-card.featured { grid-column: auto; grid-template-columns: 1fr; }
-    }
-
-    /* ═══════════════════════════════════════════
-       MOBILE (max 768px)
-    ═══════════════════════════════════════════ */
-    @media (max-width: 768px) {
-      nav { padding: 1rem 1.5rem; }
-      .nav-hamburger { display: flex; }
-      .nav-links {
-        position: fixed;
-        top: 0; right: -100%;
-        width: 75vw; max-width: 300px;
-        height: 100vh;
-        background: rgba(10,10,10,0.97);
-        backdrop-filter: blur(20px);
-        border-left: 1px solid var(--border);
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 2rem;
-        padding: 4rem 2.5rem;
-        transition: right 0.4s cubic-bezier(0.77, 0, 0.18, 1);
-        z-index: 150;
-      }
-      .nav-links.open { right: 0; }
-      .nav-links a { font-size: 1rem; letter-spacing: 3px; color: var(--text); }
-      #carousel { height: 360px; margin-top: 60px; }
-      .carousel-slide { padding: 0 1.5rem; }
-      .carousel-content { max-width: 100%; }
-      .carousel-title { font-size: clamp(1.6rem, 6vw, 2.4rem); letter-spacing: -1px; }
-      .carousel-desc { font-size: 0.78rem; }
-      .carousel-arrow { width: 38px; height: 38px; font-size: 1rem; }
-      .carousel-arrow.prev { left: 0.8rem; }
-      .carousel-arrow.next { right: 0.8rem; }
-      .carousel-bg { font-size: 40vw; }
-      #hero { padding: 0 1.5rem; min-height: 90vh; }
-      .hero-name { letter-spacing: -2px; }
-      .hero-cta { flex-direction: column; gap: 0.75rem; }
-      .btn { text-align: center; padding: 0.85rem 2rem; }
-      .hero-scroll { left: 1.5rem; }
-      section { padding: 4rem 1.5rem; }
-      .about-top { grid-template-columns: 1fr; gap: 3rem; }
-      .about-stats-bar { flex-wrap: wrap; gap: 1.5rem; padding: 2rem 1.5rem; justify-content: center; }
-      .stat-item { flex: 0 0 40%; justify-content: flex-start; }
-      .stat-sep { display: none; }
-      .stat-num { font-size: 2.2rem; }
-      .about-actions { flex-direction: column; }
-      .about-actions .btn { text-align: center; }
-      #skills { padding: 4rem 1.5rem; }
-      .skills-grid { grid-template-columns: 1fr; }
-      .edu-item { grid-template-columns: 1fr; gap: 0.5rem; }
-      .edu-year { width: fit-content; }
-      .projects-grid { grid-template-columns: 1fr; }
-      .project-card { padding: 1.5rem; }
-      .project-card.featured { grid-column: auto; grid-template-columns: 1fr; }
-      .contact-links { flex-direction: column; align-items: center; }
-      .contact-link { width: 100%; justify-content: center; }
-      .contact-headline { font-size: clamp(2rem, 8vw, 3rem); }
-      .section-title { font-size: clamp(1.8rem, 6vw, 2.5rem); }
-      footer { flex-direction: column; gap: 0.75rem; text-align: center; padding: 1.5rem; }
-      .carousel-slide { animation: none !important; }
-      .skill-category:hover { transform: none; }
-      .project-card:hover { transform: none; }
-    }
-
-    /* ═══════════════════════════════════════════
-       SMALL MOBILE (max 480px)
-    ═══════════════════════════════════════════ */
-    @media (max-width: 480px) {
-      .nav-logo { font-size: 1.1rem; }
-      #carousel { height: 300px; }
-      .carousel-title { font-size: clamp(1.4rem, 7vw, 2rem); }
-      .carousel-label { font-size: 0.58rem; }
-      .carousel-desc { display: none; }
-      .hero-name { font-size: clamp(2.5rem, 12vw, 4rem); }
-      .about-stats { grid-template-columns: 1fr 1fr; gap: 0.75rem; }
-      .stat-num { font-size: 1.8rem; }
-      .stat-item { flex: 0 0 100%; }
-      .skill-tags { gap: 0.4rem; }
-      .skill-tag { font-size: 0.65rem; padding: 0.25rem 0.5rem; }
-      .project-card { padding: 1.2rem; }
-      .project-title { font-size: 1.2rem; }
-      .edu-item { padding: 1.2rem 1.5rem; }
-      section { padding: 3.5rem 1.2rem; }
-      .btn { padding: 0.75rem 1.5rem; font-size: 0.72rem; }
-      .contact-link { padding: 0.85rem 1.5rem; font-size: 0.75rem; }
-      .cursor { display: none; }
-      body { cursor: auto; }
-    }
-</style>
+<script src="script.js" defer></script>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -941,7 +174,9 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">YN&lt;/&gt;</div>
+<a href="#" class="nav-logo" aria-label="Go to top">
+    <img src="/assets/apple-touch-icon.png" alt="Menaka Lakshan Portfolio Logo">
+</a>
   <ul class="nav-links" id="navLinks">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -957,36 +192,60 @@
 <!-- CAROUSEL -->
 <div id="carousel" role="region" aria-label="Menaka Lakshan portfolio highlights carousel" aria-roledescription="carousel">
   <div class="carousel-track" id="carouselTrack">
-    <!-- Slide 1: Profile / personal -->
-    <div class="carousel-slide" role="img" aria-label="Menaka Lakshan — Web Developer building professional websites for small businesses in Sri Lanka" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjUyMCIgdmlld0JveD0iMCAwIDE2MDAgNTIwIj4KICA8ZGVmcz4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZzEiIGN4PSI3MCUiIGN5PSI0MCUiIHI9IjYwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMxYTJhMWEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDUwODA4Ii8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPGZpbHRlciBpZD0iYmx1cjEiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjMiLz48L2ZpbHRlcj4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjE2MDAiIGhlaWdodD0iNTIwIiBmaWxsPSJ1cmwoI2cxKSIvPgogIDwhLS0gR3JpZCBsaW5lcyAtLT4KICA8ZyBzdHJva2U9IiMwZDIwMTAiIHN0cm9rZS13aWR0aD0iMSIgb3BhY2l0eT0iMC42Ij4KICAgIDxsaW5lIHgxPSIwIiB5MT0iMTA0IiB4Mj0iMTYwMCIgeTI9IjEwNCIvPgogICAgPGxpbmUgeDE9IjAiIHkxPSIyMDgiIHgyPSIxNjAwIiB5Mj0iMjA4Ii8+CiAgICA8bGluZSB4MT0iMCIgeTE9IjMxMiIgeDI9IjE2MDAiIHkyPSIzMTIiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iNDE2IiB4Mj0iMTYwMCIgeTI9IjQxNiIvPgogICAgPGxpbmUgeDE9IjMyMCIgeTE9IjAiIHgyPSIzMjAiIHkyPSI1MjAiLz4KICAgIDxsaW5lIHgxPSI2NDAiIHkxPSIwIiB4Mj0iNjQwIiB5Mj0iNTIwIi8+CiAgICA8bGluZSB4MT0iOTYwIiB5MT0iMCIgeDI9Ijk2MCIgeTI9IjUyMCIvPgogICAgPGxpbmUgeDE9IjEyODAiIHkxPSIwIiB4Mj0iMTI4MCIgeTI9IjUyMCIvPgogIDwvZz4KICA8IS0tIE1vbml0b3IgMSAtLT4KICA8cmVjdCB4PSI3MDAiIHk9IjgwIiB3aWR0aD0iNDIwIiBoZWlnaHQ9IjI2MCIgcng9IjgiIGZpbGw9IiMwYTFhMGEiIHN0cm9rZT0iIzFlOGExZSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPHJlY3QgeD0iNzEwIiB5PSI5MCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSIyNDAiIGZpbGw9IiMwNTBmMDUiLz4KICA8IS0tIENvZGUgbGluZXMgLS0+CiAgPHJlY3QgeD0iNzMwIiB5PSIxMTAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iI2U4ZmY0NyIgb3BhY2l0eT0iMC44Ii8+CiAgPHJlY3QgeD0iODIwIiB5PSIxMTAiIHdpZHRoPSIxMjAiIGhlaWdodD0iOCIgcng9IjIiIGZpbGw9IiM0ZWM5YjAiIG9wYWNpdHk9IjAuNyIvPgogIDxyZWN0IHg9Ijk1MCIgeT0iMTEwIiB3aWR0aD0iNjAiIGhlaWdodD0iOCIgcng9IjIiIGZpbGw9IiNjZTkxNzgiIG9wYWNpdHk9IjAuNyIvPgogIDxyZWN0IHg9Ijc1MCIgeT0iMTI4IiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjgiIHJ4PSIyIiBmaWxsPSIjNTY5Y2Q2IiBvcGFjaXR5PSIwLjciLz4KICA8cmVjdCB4PSI5MDAiIHk9IjEyOCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iIzRlYzliMCIgb3BhY2l0eT0iMC42Ii8+CiAgPHJlY3QgeD0iNzMwIiB5PSIxNDYiIHdpZHRoPSI2MCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iI2M1ODZjMCIgb3BhY2l0eT0iMC43Ii8+CiAgPHJlY3QgeD0iODAwIiB5PSIxNDYiIHdpZHRoPSIxODAiIGhlaWdodD0iOCIgcng9IjIiIGZpbGw9IiNkY2RjYWEiIG9wYWNpdHk9IjAuNiIvPgogIDxyZWN0IHg9Ijc1MCIgeT0iMTY0IiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjgiIHJ4PSIyIiBmaWxsPSIjNTY5Y2Q2IiBvcGFjaXR5PSIwLjciLz4KICA8cmVjdCB4PSI4ODAiIHk9IjE2NCIgd2lkdGg9IjkwIiBoZWlnaHQ9IjgiIHJ4PSIyIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjUiLz4KICA8cmVjdCB4PSI3MzAiIHk9IjE4MiIgd2lkdGg9IjIwMCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iIzRlYzliMCIgb3BhY2l0eT0iMC42Ii8+CiAgPHJlY3QgeD0iNzUwIiB5PSIyMDAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iI2NlOTE3OCIgb3BhY2l0eT0iMC43Ii8+CiAgPHJlY3QgeD0iODQwIiB5PSIyMDAiIHdpZHRoPSIxNDAiIGhlaWdodD0iOCIgcng9IjIiIGZpbGw9IiM1NjljZDYiIG9wYWNpdHk9IjAuNiIvPgogIDxyZWN0IHg9IjczMCIgeT0iMjE4IiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjgiIHJ4PSIyIiBmaWxsPSIjZGNkY2FhIiBvcGFjaXR5PSIwLjUiLz4KICA8cmVjdCB4PSI3NTAiIHk9IjIzNiIgd2lkdGg9IjEwMCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iI2M1ODZjMCIgb3BhY2l0eT0iMC42Ii8+CiAgPHJlY3QgeD0iODYwIiB5PSIyMzYiIHdpZHRoPSIxMjAiIGhlaWdodD0iOCIgcng9IjIiIGZpbGw9IiM0ZWM5YjAiIG9wYWNpdHk9IjAuNSIvPgogIDxyZWN0IHg9IjczMCIgeT0iMjU0IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjgiIHJ4PSIyIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjQiLz4KICA8cmVjdCB4PSI3MzAiIHk9IjI3MiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjgiIHJ4PSIyIiBmaWxsPSIjNTY5Y2Q2IiBvcGFjaXR5PSIwLjYiLz4KICA8cmVjdCB4PSI4MDAiIHk9IjI3MiIgd2lkdGg9IjEwMCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbD0iI2NlOTE3OCIgb3BhY2l0eT0iMC41Ii8+CiAgPCEtLSBDdXJzb3IgYmxpbmsgLS0+CiAgPHJlY3QgeD0iOTEwIiB5PSIyNzIiIHdpZHRoPSIyIiBoZWlnaHQ9IjEyIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjkiLz4KICA8IS0tIFN0YW5kIC0tPgogIDxyZWN0IHg9Ijg5MCIgeT0iMzQwIiB3aWR0aD0iOCIgaGVpZ2h0PSI0MCIgZmlsbD0iIzFhMmExYSIvPgogIDxyZWN0IHg9Ijg1MCIgeT0iMzgwIiB3aWR0aD0iODgiIGhlaWdodD0iOCIgcng9IjMiIGZpbGw9IiMxYTJhMWEiLz4KICA8IS0tIE1vbml0b3IgMiBzbWFsbGVyIC0tPgogIDxyZWN0IHg9IjExNjAiIHk9IjEyMCIgd2lkdGg9IjI2MCIgaGVpZ2h0PSIxNzAiIHJ4PSI2IiBmaWxsPSIjMGExYTBhIiBzdHJva2U9IiMxZTVhMWUiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPHJlY3QgeD0iMTE2OCIgeT0iMTI4IiB3aWR0aD0iMjQ0IiBoZWlnaHQ9IjE1NCIgZmlsbD0iIzA1MGYwNSIvPgogIDxyZWN0IHg9IjExODAiIHk9IjE0MiIgd2lkdGg9IjcwIiBoZWlnaHQ9IjYiIHJ4PSIyIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjYiLz4KICA8cmVjdCB4PSIxMjU4IiB5PSIxNDIiIHdpZHRoPSI5MCIgaGVpZ2h0PSI2IiByeD0iMiIgZmlsbD0iIzU2OWNkNiIgb3BhY2l0eT0iMC41Ii8+CiAgPHJlY3QgeD0iMTE5MCIgeT0iMTU2IiB3aWR0aD0iMTEwIiBoZWlnaHQ9IjYiIHJ4PSIyIiBmaWxsPSIjNGVjOWIwIiBvcGFjaXR5PSIwLjUiLz4KICA8cmVjdCB4PSIxMTgwIiB5PSIxNzAiIHdpZHRoPSIxNTAiIGhlaWdodD0iNiIgcng9IjIiIGZpbGw9IiNjNTg2YzAiIG9wYWNpdHk9IjAuNCIvPgogIDxyZWN0IHg9IjExOTAiIHk9IjE4NCIgd2lkdGg9IjgwIiBoZWlnaHQ9IjYiIHJ4PSIyIiBmaWxsPSIjZGNkY2FhIiBvcGFjaXR5PSIwLjUiLz4KICA8cmVjdCB4PSIxMjc4IiB5PSIxODQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2IiByeD0iMiIgZmlsbD0iI2NlOTE3OCIgb3BhY2l0eT0iMC40Ii8+CiAgPCEtLSBLZXlib2FyZCAtLT4KICA8cmVjdCB4PSI3MjAiIHk9IjM1NSIgd2lkdGg9IjM2MCIgaGVpZ2h0PSI3MCIgcng9IjYiIGZpbGw9IiMwZDFhMGQiIHN0cm9rZT0iIzFhM2ExYSIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPGcgZmlsbD0iIzE1MjUxNSI+CiAgICA8cmVjdCB4PSI3MzAiIHk9IjM2NSIgd2lkdGg9IjI4IiBoZWlnaHQ9IjIwIiByeD0iMyIvPgogICAgPHJlY3QgeD0iNzYyIiB5PSIzNjUiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyMCIgcng9IjMiLz4KICAgIDxyZWN0IHg9Ijc5NCIgeT0iMzY1IiB3aWR0aD0iMjgiIGhlaWdodD0iMjAiIHJ4PSIzIi8+CiAgICA8cmVjdCB4PSI4MjYiIHk9IjM2NSIgd2lkdGg9IjI4IiBoZWlnaHQ9IjIwIiByeD0iMyIvPgogICAgPHJlY3QgeD0iODU4IiB5PSIzNjUiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyMCIgcng9IjMiLz4KICAgIDxyZWN0IHg9Ijg5MCIgeT0iMzY1IiB3aWR0aD0iMjgiIGhlaWdodD0iMjAiIHJ4PSIzIi8+CiAgICA8cmVjdCB4PSI5MjIiIHk9IjM2NSIgd2lkdGg9IjI4IiBoZWlnaHQ9IjIwIiByeD0iMyIvPgogICAgPHJlY3QgeD0iOTU0IiB5PSIzNjUiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyMCIgcng9IjMiLz4KICAgIDxyZWN0IHg9Ijk4NiIgeT0iMzY1IiB3aWR0aD0iMjgiIGhlaWdodD0iMjAiIHJ4PSIzIi8+CiAgICA8cmVjdCB4PSIxMDE4IiB5PSIzNjUiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyMCIgcng9IjMiLz4KICAgIDxyZWN0IHg9IjczNSIgeT0iMzkwIiB3aWR0aD0iMjgiIGhlaWdodD0iMjAiIHJ4PSIzIi8+CiAgICA8cmVjdCB4PSI3NjciIHk9IjM5MCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjIwIiByeD0iMyIvPgogICAgPHJlY3QgeD0iNzk5IiB5PSIzOTAiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyMCIgcng9IjMiLz4KICAgIDxyZWN0IHg9IjgzMSIgeT0iMzkwIiB3aWR0aD0iMjgiIGhlaWdodD0iMjAiIHJ4PSIzIi8+CiAgICA8cmVjdCB4PSI4NjMiIHk9IjM5MCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSIyMCIgcng9IjMiLz4KICAgIDxyZWN0IHg9IjEwNDciIHk9IjM5MCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjIwIiByeD0iMyIvPgogIDwvZz4KICA8IS0tIEdsb3cgZWZmZWN0cyAtLT4KICA8ZWxsaXBzZSBjeD0iOTEwIiBjeT0iMjAwIiByeD0iMjAwIiByeT0iMTIwIiBmaWxsPSIjMDBmZjQwIiBvcGFjaXR5PSIwLjA0IiBmaWx0ZXI9InVybCgjYmx1cjEpIi8+CiAgPGVsbGlwc2UgY3g9IjEyOTAiIGN5PSIyMDAiIHJ4PSIxMzAiIHJ5PSI4MCIgZmlsbD0iIzAwZmY0MCIgb3BhY2l0eT0iMC4wMyIgZmlsdGVyPSJ1cmwoI2JsdXIxKSIvPgogIDwhLS0gQWNjZW50IGRvdHMgLS0+CiAgPGNpcmNsZSBjeD0iMTUwMCIgY3k9IjEwMCIgcj0iODAiIGZpbGw9IiNlOGZmNDciIG9wYWNpdHk9IjAuMDMiLz4KICA8Y2lyY2xlIGN4PSIyMDAiIGN5PSI0MjAiIHI9IjEyMCIgZmlsbD0iIzAwY2M0NCIgb3BhY2l0eT0iMC4wNCIvPgo8L3N2Zz4=');">
+    <div class="carousel-slide" role="img" 
+        aria-label="SLTSSS - Sri Lanka's first railway seat-sharing platform by Menaka Lakshan" 
+        style="background-image: linear-gradient(to right, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.3) 100%), url('/assets/sltsss-logo.png'); 
+                background-size: cover; 
+                background-position: center;">
+                
       <div class="carousel-bg">01</div>
       <div class="carousel-content">
-        <div class="carousel-label">Full-Stack Developer</div>
-        <div class="carousel-title">Building the <em>web</em><br/>of tomorrow.</div>
-        <p class="carousel-desc">I craft fast, scalable, and elegant digital products — from pixel-perfect UIs to robust backend systems.</p>
-        <a href="#about" class="carousel-cta">Explore My Work →</a>
+        <div class="carousel-label">First in Sri Lanka</div>
+        <div class="carousel-title">Share your Seat With<em> VOYA</em><br/></div>
+        <p class="carousel-desc">
+          Revolutionizing Sri Lankan train travel with the first-ever seat-sharing system. 
+          Connect with fellow commuters, optimize space, and travel smarter.
+        </p>
+        <a href="#projects" class="carousel-cta">Explore The Project →</a>
       </div>
     </div>
     <!-- Slide 2: Project / code screenshot -->
-    <div class="carousel-slide" role="img" aria-label="Code editor showing Menaka Lakshan web development projects — React, Node.js, TypeScript" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjUyMCIgdmlld0JveD0iMCAwIDE2MDAgNTIwIj4KICA8ZGVmcz4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZzIiIGN4PSI2MCUiIGN5PSI1MCUiIHI9IjcwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwZDBkMWEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDUwNTA4Ii8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTYwMCIgaGVpZ2h0PSI1MjAiIGZpbGw9InVybCgjZzIpIi8+CiAgPCEtLSBEaWFnb25hbCBncmlkIC0tPgogIDxnIHN0cm9rZT0iIzEwMTAyYSIgc3Ryb2tlLXdpZHRoPSIxIiBvcGFjaXR5PSIwLjgiPgogICAgPGxpbmUgeDE9IjAiIHkxPSIwIiB4Mj0iMTYwMCIgeTI9IjUyMCIgb3BhY2l0eT0iMC40Ii8+CiAgICA8bGluZSB4MT0iMjAwIiB5MT0iMCIgeDI9IjE4MDAiIHkyPSI1MjAiIG9wYWNpdHk9IjAuMyIvPgogICAgPGxpbmUgeDE9IjQwMCIgeTE9IjAiIHgyPSIyMDAwIiB5Mj0iNTIwIiBvcGFjaXR5PSIwLjIiLz4KICAgIDxsaW5lIHgxPSItMjAwIiB5MT0iMCIgeDI9IjE0MDAiIHkyPSI1MjAiIG9wYWNpdHk9IjAuMyIvPgogICAgPGxpbmUgeDE9Ii00MDAiIHkxPSIwIiB4Mj0iMTIwMCIgeTI9IjUyMCIgb3BhY2l0eT0iMC4yIi8+CiAgICA8bGluZSB4MT0iMCIgeTE9IjEwNCIgeDI9IjE2MDAiIHkyPSIxMDQiIG9wYWNpdHk9IjAuNSIvPgogICAgPGxpbmUgeDE9IjAiIHkxPSIyMDgiIHgyPSIxNjAwIiB5Mj0iMjA4IiBvcGFjaXR5PSIwLjUiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iMzEyIiB4Mj0iMTYwMCIgeTI9IjMxMiIgb3BhY2l0eT0iMC41Ii8+CiAgICA8bGluZSB4MT0iMCIgeTE9IjQxNiIgeDI9IjE2MDAiIHkyPSI0MTYiIG9wYWNpdHk9IjAuNSIvPgogIDwvZz4KICA8IS0tIEJpZyBjb2RlIGVkaXRvciB3aW5kb3cgLS0+CiAgPHJlY3QgeD0iNjAwIiB5PSI0MCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI0NDAiIHJ4PSIxMCIgZmlsbD0iIzBlMGUxZSIgc3Ryb2tlPSIjMmEyYTVhIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDwhLS0gVGl0bGUgYmFyIC0tPgogIDxyZWN0IHg9IjYwMCIgeT0iNDAiIHdpZHRoPSI5MDAiIGhlaWdodD0iMzYiIHJ4PSIxMCIgZmlsbD0iIzE2MTYyOCIvPgogIDxyZWN0IHg9IjYwMCIgeT0iNjAiIHdpZHRoPSI5MDAiIGhlaWdodD0iMTYiIGZpbGw9IiMxNjE2MjgiLz4KICA8Y2lyY2xlIGN4PSI2MjgiIGN5PSI1OCIgcj0iNyIgZmlsbD0iI2ZmNWY1NyIvPgogIDxjaXJjbGUgY3g9IjY1MiIgY3k9IjU4IiByPSI3IiBmaWxsPSIjZmViYzJlIi8+CiAgPGNpcmNsZSBjeD0iNjc2IiBjeT0iNTgiIHI9IjciIGZpbGw9IiMyOGM4NDAiLz4KICA8dGV4dCB4PSI3ODAiIHk9IjYzIiBmaWxsPSIjNGE0YTdhIiBmb250LXNpemU9IjExIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIj5pbmRleC50c3gg4oCUIHBvcnRmb2xpbzwvdGV4dD4KICA8IS0tIExpbmUgbnVtYmVycyAtLT4KICA8cmVjdCB4PSI2MDAiIHk9Ijc2IiB3aWR0aD0iNDgiIGhlaWdodD0iNDA0IiBmaWxsPSIjMGMwYzFjIi8+CiAgPGcgZmlsbD0iIzNhM2E2YSIgZm9udC1zaXplPSIxMSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSI+CiAgICA8dGV4dCB4PSI2MTQiIHk9IjEwMiI+MTwvdGV4dD48dGV4dCB4PSI2MTQiIHk9IjEyMCI+MjwvdGV4dD48dGV4dCB4PSI2MTQiIHk9IjEzOCI+MzwvdGV4dD4KICAgIDx0ZXh0IHg9IjYxNCIgeT0iMTU2Ij40PC90ZXh0Pjx0ZXh0IHg9IjYxNCIgeT0iMTc0Ij41PC90ZXh0Pjx0ZXh0IHg9IjYxNCIgeT0iMTkyIj42PC90ZXh0PgogICAgPHRleHQgeD0iNjE0IiB5PSIyMTAiPjc8L3RleHQ+PHRleHQgeD0iNjE0IiB5PSIyMjgiPjg8L3RleHQ+PHRleHQgeD0iNjE0IiB5PSIyNDYiPjk8L3RleHQ+CiAgICA8dGV4dCB4PSI2MTAiIHk9IjI2NCI+MTA8L3RleHQ+PHRleHQgeD0iNjEwIiB5PSIyODIiPjExPC90ZXh0Pjx0ZXh0IHg9IjYxMCIgeT0iMzAwIj4xMjwvdGV4dD4KICAgIDx0ZXh0IHg9IjYxMCIgeT0iMzE4Ij4xMzwvdGV4dD48dGV4dCB4PSI2MTAiIHk9IjMzNiI+MTQ8L3RleHQ+PHRleHQgeD0iNjEwIiB5PSIzNTQiPjE1PC90ZXh0PgogICAgPHRleHQgeD0iNjEwIiB5PSIzNzIiPjE2PC90ZXh0Pjx0ZXh0IHg9IjYxMCIgeT0iMzkwIj4xNzwvdGV4dD48dGV4dCB4PSI2MTAiIHk9IjQwOCI+MTg8L3RleHQ+CiAgICA8dGV4dCB4PSI2MTAiIHk9IjQyNiI+MTk8L3RleHQ+PHRleHQgeD0iNjEwIiB5PSI0NDQiPjIwPC90ZXh0PgogIDwvZz4KICA8IS0tIENvZGUgY29udGVudCAtLT4KICA8IS0tIExpbmUgMTogaW1wb3J0IC0tPgogIDxyZWN0IHg9IjY2MCIgeT0iOTIiIHdpZHRoPSI1NSIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2M1ODZjMCIgb3BhY2l0eT0iMC45Ii8+CiAgPHJlY3QgeD0iNzIyIiB5PSI5MiIgd2lkdGg9IjMwIiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjNGVjOWIwIiBvcGFjaXR5PSIwLjgiLz4KICA8cmVjdCB4PSI3NTkiIHk9IjkyIiB3aWR0aD0iMjAiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiNkY2RjYWEiIG9wYWNpdHk9IjAuNyIvPgogIDxyZWN0IHg9Ijc4NiIgeT0iOTIiIHdpZHRoPSI2MCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2NlOTE3OCIgb3BhY2l0eT0iMC44Ii8+CiAgPCEtLSBMaW5lIDI6IGltcG9ydCAtLT4KICA8cmVjdCB4PSI2NjAiIHk9IjExMCIgd2lkdGg9IjU1IiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjYzU4NmMwIiBvcGFjaXR5PSIwLjkiLz4KICA8cmVjdCB4PSI3MjIiIHk9IjExMCIgd2lkdGg9IjkwIiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjNGVjOWIwIiBvcGFjaXR5PSIwLjgiLz4KICA8cmVjdCB4PSI4MTkiIHk9IjExMCIgd2lkdGg9IjI1IiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjZGNkY2FhIiBvcGFjaXR5PSIwLjciLz4KICA8cmVjdCB4PSI4NTEiIHk9IjExMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2NlOTE3OCIgb3BhY2l0eT0iMC44Ii8+CiAgPCEtLSBMaW5lIDM6IGJsYW5rIC0tPgogIDwhLS0gTGluZSA0OiBjb25zdCAtLT4KICA8cmVjdCB4PSI2NjAiIHk9IjE0NiIgd2lkdGg9IjQwIiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjNTY5Y2Q2IiBvcGFjaXR5PSIwLjkiLz4KICA8cmVjdCB4PSI3MDciIHk9IjE0NiIgd2lkdGg9IjgwIiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjZGNkY2FhIiBvcGFjaXR5PSIwLjgiLz4KICA8cmVjdCB4PSI3OTQiIHk9IjE0NiIgd2lkdGg9IjgiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiNlOGZmNDciIG9wYWNpdHk9IjAuNyIvPgogIDxyZWN0IHg9IjgwOSIgeT0iMTQ2IiB3aWR0aD0iNTUiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiM0ZWM5YjAiIG9wYWNpdHk9IjAuOCIvPgogIDwhLS0gTGluZSA1OiByZXR1cm4gLS0+CiAgPHJlY3QgeD0iNjYwIiB5PSIxNjQiIHdpZHRoPSI1MCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2M1ODZjMCIgb3BhY2l0eT0iMC45Ii8+CiAgPHJlY3QgeD0iNzE3IiB5PSIxNjQiIHdpZHRoPSI4IiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjciLz4KICA8IS0tIExpbmUgNjogZGl2IC0tPgogIDxyZWN0IHg9IjY4MCIgeT0iMTgyIiB3aWR0aD0iOCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2U4ZmY0NyIgb3BhY2l0eT0iMC43Ii8+CiAgPHJlY3QgeD0iNjk1IiB5PSIxODIiIHdpZHRoPSIzMCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iIzRlYzliMCIgb3BhY2l0eT0iMC44Ii8+CiAgPHJlY3QgeD0iNzMyIiB5PSIxODIiIHdpZHRoPSI1MCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iIzkyYzVmOCIgb3BhY2l0eT0iMC43Ii8+CiAgPHJlY3QgeD0iNzg5IiB5PSIxODIiIHdpZHRoPSI4MCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2NlOTE3OCIgb3BhY2l0eT0iMC43Ii8+CiAgPHJlY3QgeD0iODc2IiB5PSIxODIiIHdpZHRoPSI4IiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjYiLz4KICA8IS0tIExpbmUgNzogaDEgaGlnaGxpZ2h0IC0tPgogIDxyZWN0IHg9IjY2MCIgeT0iMTk2IiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjE0IiByeD0iMCIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iMC4wNCIvPgogIDxyZWN0IHg9IjcwMCIgeT0iMjAwIiB3aWR0aD0iOCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2U4ZmY0NyIgb3BhY2l0eT0iMC44Ii8+CiAgPHJlY3QgeD0iNzE1IiB5PSIyMDAiIHdpZHRoPSIxNCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iIzRlYzliMCIgb3BhY2l0eT0iMC45Ii8+CiAgPHJlY3QgeD0iNzM2IiB5PSIyMDAiIHdpZHRoPSI4IiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjgiLz4KICA8cmVjdCB4PSI3NTEiIHk9IjIwMCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2U4ZmY0NyIgb3BhY2l0eT0iMC45Ii8+CiAgPHJlY3QgeD0iOTE4IiB5PSIyMDAiIHdpZHRoPSI4IiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjgiLz4KICA8cmVjdCB4PSI5MzMiIHk9IjIwMCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjNGVjOWIwIiBvcGFjaXR5PSIwLjkiLz4KICA8cmVjdCB4PSI5NTgiIHk9IjIwMCIgd2lkdGg9IjgiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiNlOGZmNDciIG9wYWNpdHk9IjAuOCIvPgogIDxyZWN0IHg9Ijk3MiIgeT0iMjAwIiB3aWR0aD0iMiIgaGVpZ2h0PSIxNCIgZmlsbD0iI2U4ZmY0NyIgb3BhY2l0eT0iMSIvPgogIDwhLS0gTW9yZSBsaW5lcyAtLT4KICA8cmVjdCB4PSI3MDAiIHk9IjIxOCIgd2lkdGg9IjgiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiNlOGZmNDciIG9wYWNpdHk9IjAuNyIvPgogIDxyZWN0IHg9IjcxNSIgeT0iMjE4IiB3aWR0aD0iMTQiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiM0ZWM5YjAiIG9wYWNpdHk9IjAuOCIvPgogIDxyZWN0IHg9IjczNiIgeT0iMjE4IiB3aWR0aD0iOCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2U4ZmY0NyIgb3BhY2l0eT0iMC43Ii8+CiAgPHJlY3QgeD0iNzUxIiB5PSIyMTgiIHdpZHRoPSIxMjAiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiNkY2RjYWEiIG9wYWNpdHk9IjAuNyIvPgogIDxyZWN0IHg9Ijg3OSIgeT0iMjE4IiB3aWR0aD0iOCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2U4ZmY0NyIgb3BhY2l0eT0iMC42Ii8+CiAgPHJlY3QgeD0iODkzIiB5PSIyMTgiIHdpZHRoPSIxOCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iIzRlYzliMCIgb3BhY2l0eT0iMC43Ii8+CiAgPHJlY3QgeD0iNzAwIiB5PSIyMzYiIHdpZHRoPSIxNDAiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiM1NjljZDYiIG9wYWNpdHk9IjAuNyIvPgogIDxyZWN0IHg9IjcwMCIgeT0iMjU0IiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjNGVjOWIwIiBvcGFjaXR5PSIwLjciLz4KICA8cmVjdCB4PSI4MDciIHk9IjI1NCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjYiLz4KICA8cmVjdCB4PSI3MDAiIHk9IjI3MiIgd2lkdGg9IjgwIiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjYzU4NmMwIiBvcGFjaXR5PSIwLjYiLz4KICA8cmVjdCB4PSI3ODciIHk9IjI3MiIgd2lkdGg9IjEyMCIgaGVpZ2h0PSI5IiByeD0iMiIgZmlsbD0iI2NlOTE3OCIgb3BhY2l0eT0iMC42Ii8+CiAgPHJlY3QgeD0iNzAwIiB5PSIyOTAiIHdpZHRoPSIyMDAiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiNkY2RjYWEiIG9wYWNpdHk9IjAuNSIvPgogIDxyZWN0IHg9IjcwMCIgeT0iMzA4IiB3aWR0aD0iNjAiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiM1NjljZDYiIG9wYWNpdHk9IjAuNiIvPgogIDxyZWN0IHg9IjcwMCIgeT0iMzI2IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjkiIHJ4PSIyIiBmaWxsPSIjNGVjOWIwIiBvcGFjaXR5PSIwLjUiLz4KICA8cmVjdCB4PSI2ODAiIHk9IjM0NCIgd2lkdGg9IjgiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiNlOGZmNDciIG9wYWNpdHk9IjAuNiIvPgogIDxyZWN0IHg9IjY2MCIgeT0iMzYyIiB3aWR0aD0iNTAiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiNjNTg2YzAiIG9wYWNpdHk9IjAuNyIvPgogIDxyZWN0IHg9IjcxNyIgeT0iMzYyIiB3aWR0aD0iODAiIGhlaWdodD0iOSIgcng9IjIiIGZpbGw9IiM1NjljZDYiIG9wYWNpdHk9IjAuNiIvPgogIDwhLS0gRmxvYXRpbmcgcGFydGljbGVzIC0tPgogIDxjaXJjbGUgY3g9IjIwMCIgY3k9IjE1MCIgcj0iMyIgZmlsbD0iI2ZmNDc0NyIgb3BhY2l0eT0iMC42Ii8+CiAgPGNpcmNsZSBjeD0iMzAwIiBjeT0iMzUwIiByPSIyIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjUiLz4KICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSI0NTAiIHI9IjQiIGZpbGw9IiM0N2I4ZmYiIG9wYWNpdHk9IjAuNCIvPgogIDxjaXJjbGUgY3g9IjUwMCIgY3k9IjEwMCIgcj0iMiIgZmlsbD0iI2U4ZmY0NyIgb3BhY2l0eT0iMC40Ii8+CiAgPGNpcmNsZSBjeD0iMTU0MCIgY3k9IjIwMCIgcj0iMyIgZmlsbD0iI2ZmNDc0NyIgb3BhY2l0eT0iMC41Ii8+CiAgPGNpcmNsZSBjeD0iMTQ4MCIgY3k9IjQyMCIgcj0iMiIgZmlsbD0iI2U4ZmY0NyIgb3BhY2l0eT0iMC40Ii8+CiAgPCEtLSBHbG93IC0tPgogIDxlbGxpcHNlIGN4PSIxMTAwIiBjeT0iMjYwIiByeD0iMzAwIiByeT0iMjAwIiBmaWxsPSIjNDc0N2ZmIiBvcGFjaXR5PSIwLjA0Ii8+Cjwvc3ZnPg==');">
+        <div class="carousel-slide" role="img" 
+        aria-label="Voya — Booking platform by Menaka Lakshan showing React and Node.js expertise" 
+        style="background-image: linear-gradient(to right, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.1) 100%), url('/assets/voya-banner-image-one.png');
+            background-size: 110%;
+            background-position: 10% center;
+            background-repeat: no-repeat;">
+                
       <div class="carousel-bg">02</div>
       <div class="carousel-content">
-        <div class="carousel-label">Open Source Contributor</div>
-        <div class="carousel-title">Code that <em>matters</em>,<br/>shipped daily.</div>
-        <p class="carousel-desc">Passionate about open-source and developer tooling. I build things that make other developers' lives easier.</p>
-        <a href="#projects" class="carousel-cta">See Projects →</a>
+        <div class="carousel-label">Voya - Smart Booking</div>
+        <div class="carousel-title">Book your <em>own</em><br/>comfort, easily.</div>
+        <p class="carousel-desc">
+          A seamless and secure platform to book your travel seats in real-time. 
+          Combining modern UI with a powerful backend for a smooth user experience.
+        </p>
+        <a href="#projects" class="carousel-cta">Explore Voya →</a>
       </div>
     </div>
     <!-- Slide 3: Abstract tech -->
-    <div class="carousel-slide" role="img" aria-label="Abstract tech circuit board — Menaka Lakshan AI and software engineering services Sri Lanka" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjUyMCIgdmlld0JveD0iMCAwIDE2MDAgNTIwIj4KICA8ZGVmcz4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0iZzMiIGN4PSI1MCUiIGN5PSI1MCUiIHI9IjcwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwZDFhMWEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDUwYTBhIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPGZpbHRlciBpZD0iZ2xvdyI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iNCIgcmVzdWx0PSJibHVyIi8+PGZlTWVyZ2U+PGZlTWVyZ2VOb2RlIGluPSJibHVyIi8+PGZlTWVyZ2VOb2RlIGluPSJTb3VyY2VHcmFwaGljIi8+PC9mZU1lcmdlPjwvZmlsdGVyPgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTYwMCIgaGVpZ2h0PSI1MjAiIGZpbGw9InVybCgjZzMpIi8+CiAgPCEtLSBDaXJjdWl0IHRyYWNlcyBob3Jpem9udGFsIC0tPgogIDxnIHN0cm9rZT0iIzBkM2EzYSIgc3Ryb2tlLXdpZHRoPSIxLjUiIGZpbGw9Im5vbmUiPgogICAgPHBhdGggZD0iTTAgMTAwIEwyMDAgMTAwIEwyNTAgMTUwIEw2MDAgMTUwIi8+CiAgICA8cGF0aCBkPSJNMCAyMDAgTDE1MCAyMDAgTDIwMCAyNTAgTDQwMCAyNTAgTDQ1MCAyMDAgTDgwMCAyMDAiLz4KICAgIDxwYXRoIGQ9Ik0wIDMwMCBMMzAwIDMwMCBMMzUwIDM1MCBMNzAwIDM1MCBMNzUwIDMwMCBMMTAwMCAzMDAiLz4KICAgIDxwYXRoIGQ9Ik0wIDQwMCBMMTAwIDQwMCBMMTUwIDM1MCBMNTAwIDM1MCIvPgogICAgPHBhdGggZD0iTTgwMCAxNTAgTDkwMCAxNTAgTDk1MCAxMDAgTDEyMDAgMTAwIEwxMjUwIDE1MCBMMTYwMCAxNTAiLz4KICAgIDxwYXRoIGQ9Ik0xMDAwIDMwMCBMMTEwMCAzMDAgTDExNTAgMjUwIEwxNDAwIDI1MCBMMTQ1MCAzMDAgTDE2MDAgMzAwIi8+CiAgICA8cGF0aCBkPSJNNjAwIDQwMCBMODAwIDQwMCBMODUwIDQ1MCBMMTYwMCA0NTAiLz4KICAgIDxwYXRoIGQ9Ik00MDAgNTAgTDUwMCA1MCBMNTUwIDEwMCBMNzAwIDEwMCIvPgogICAgPHBhdGggZD0iTTExMDAgNDAwIEwxMjAwIDQwMCBMMTI1MCAzNTAgTDE2MDAgMzUwIi8+CiAgPC9nPgogIDwhLS0gQ2lyY3VpdCB0cmFjZXMgdmVydGljYWwgLS0+CiAgPGcgc3Ryb2tlPSIjMGQzYTNhIiBzdHJva2Utd2lkdGg9IjEuNSIgZmlsbD0ibm9uZSI+CiAgICA8cGF0aCBkPSJNMjAwIDAgTDIwMCAxMDAiLz4KICAgIDxwYXRoIGQ9Ik00MDAgMCBMNDAwIDUwIEw0NTAgMTAwIEw0NTAgMjAwIi8+CiAgICA8cGF0aCBkPSJNNzAwIDEwMCBMNzAwIDIwMCIvPgogICAgPHBhdGggZD0iTTkwMCAxNTAgTDkwMCAzMDAiLz4KICAgIDxwYXRoIGQ9Ik0xMjAwIDEwMCBMMTIwMCAyNTAiLz4KICAgIDxwYXRoIGQ9Ik0xNDAwIDAgTDE0MDAgMjUwIi8+CiAgICA8cGF0aCBkPSJNNjAwIDE1MCBMNjAwIDQwMCIvPgogICAgPHBhdGggZD0iTTgwMCAyMDAgTDgwMCA0MDAiLz4KICAgIDxwYXRoIGQ9Ik0xMTAwIDMwMCBMMTEwMCA0MDAiLz4KICAgIDxwYXRoIGQ9Ik0zMDAgMzAwIEwzMDAgNTIwIi8+CiAgICA8cGF0aCBkPSJNMTQ1MCAzMDAgTDE0NTAgNTIwIi8+CiAgPC9nPgogIDwhLS0gQWNjZW50IGdsb3dpbmcgdHJhY2VzIC0tPgogIDxnIHN0cm9rZT0iIzFhN2E3YSIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIiBvcGFjaXR5PSIwLjUiIGZpbHRlcj0idXJsKCNnbG93KSI+CiAgICA8cGF0aCBkPSJNMCAyMDAgTDE1MCAyMDAgTDIwMCAyNTAgTDQwMCAyNTAgTDQ1MCAyMDAgTDgwMCAyMDAiLz4KICAgIDxwYXRoIGQ9Ik0xMDAwIDMwMCBMMTEwMCAzMDAgTDExNTAgMjUwIEwxNDAwIDI1MCBMMTQ1MCAzMDAgTDE2MDAgMzAwIi8+CiAgPC9nPgogIDwhLS0gQnJpZ2h0IGFjY2VudCB0cmFjZSAtLT4KICA8ZyBzdHJva2U9IiNlOGZmNDciIHN0cm9rZS13aWR0aD0iMS41IiBmaWxsPSJub25lIiBvcGFjaXR5PSIwLjMiIGZpbHRlcj0idXJsKCNnbG93KSI+CiAgICA8cGF0aCBkPSJNMCAzMDAgTDMwMCAzMDAgTDM1MCAzNTAgTDcwMCAzNTAgTDc1MCAzMDAgTDEwMDAgMzAwIi8+CiAgPC9nPgogIDwhLS0gTm9kZXMvY2hpcHMgLS0+CiAgPGcgZmlsbD0iIzBkMmEyYSIgc3Ryb2tlPSIjMWE3YTdhIiBzdHJva2Utd2lkdGg9IjEuNSI+CiAgICA8IS0tIEJpZyBjaGlwIGNlbnRlciAtLT4KICAgIDxyZWN0IHg9IjgyMCIgeT0iMTcwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjEwMCIgcng9IjQiLz4KICAgIDxyZWN0IHg9IjgzMCIgeT0iMTgwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjgwIiByeD0iMiIgZmlsbD0iIzA2MTUxNSIgc3Ryb2tlPSIjMGQ1MDUwIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgIDwhLS0gQ2hpcCBwaW5zIHRvcCAtLT4KICAgIDxyZWN0IHg9Ijg0NSIgeT0iMTYyIiB3aWR0aD0iOCIgaGVpZ2h0PSI4IiBmaWxsPSIjMWE3YTdhIiByeD0iMSIvPgogICAgPHJlY3QgeD0iODY1IiB5PSIxNjIiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIGZpbGw9IiMxYTdhN2EiIHJ4PSIxIi8+CiAgICA8cmVjdCB4PSI4ODUiIHk9IjE2MiIgd2lkdGg9IjgiIGhlaWdodD0iOCIgZmlsbD0iIzFhN2E3YSIgcng9IjEiLz4KICAgIDxyZWN0IHg9IjkwNSIgeT0iMTYyIiB3aWR0aD0iOCIgaGVpZ2h0PSI4IiBmaWxsPSIjMWE3YTdhIiByeD0iMSIvPgogICAgPHJlY3QgeD0iOTI1IiB5PSIxNjIiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIGZpbGw9IiNlOGZmNDciIHJ4PSIxIiBvcGFjaXR5PSIwLjciLz4KICAgIDwhLS0gQ2hpcCBwaW5zIGJvdHRvbSAtLT4KICAgIDxyZWN0IHg9Ijg0NSIgeT0iMjcwIiB3aWR0aD0iOCIgaGVpZ2h0PSI4IiBmaWxsPSIjMWE3YTdhIiByeD0iMSIvPgogICAgPHJlY3QgeD0iODY1IiB5PSIyNzAiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIGZpbGw9IiMxYTdhN2EiIHJ4PSIxIi8+CiAgICA8cmVjdCB4PSI4ODUiIHk9IjI3MCIgd2lkdGg9IjgiIGhlaWdodD0iOCIgZmlsbD0iI2U4ZmY0NyIgcng9IjEiIG9wYWNpdHk9IjAuNyIvPgogICAgPHJlY3QgeD0iOTA1IiB5PSIyNzAiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIGZpbGw9IiMxYTdhN2EiIHJ4PSIxIi8+CiAgICA8cmVjdCB4PSI5MjUiIHk9IjI3MCIgd2lkdGg9IjgiIGhlaWdodD0iOCIgZmlsbD0iIzFhN2E3YSIgcng9IjEiLz4KICAgIDwhLS0gTGFiZWwgb24gY2hpcCAtLT4KICA8L2c+CiAgPHRleHQgeD0iODU1IiB5PSIyMjUiIGZpbGw9IiMxYTlhOWEiIGZvbnQtc2l6ZT0iMTAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIG9wYWNpdHk9IjAuOSI+Q1BVLTAxPC90ZXh0PgogIDx0ZXh0IHg9Ijg0OCIgeT0iMjQwIiBmaWxsPSIjMGQ2YTZhIiBmb250LXNpemU9IjgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiPjMuOEdIeiB4MTY8L3RleHQ+CiAgPCEtLSBTbWFsbCBjaGlwcyBzY2F0dGVyZWQgLS0+CiAgPGcgZmlsbD0iIzBhMWUxZSIgc3Ryb2tlPSIjMGQ1MDUwIiBzdHJva2Utd2lkdGg9IjEiPgogICAgPHJlY3QgeD0iMzUwIiB5PSIyMjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSI1MCIgcng9IjMiLz4KICAgIDxyZWN0IHg9IjExNjAiIHk9IjIyMCIgd2lkdGg9IjgwIiBoZWlnaHQ9IjUwIiByeD0iMyIvPgogICAgPHJlY3QgeD0iNjIwIiB5PSIzMjAiIHdpZHRoPSI2MCIgaGVpZ2h0PSI0MCIgcng9IjMiLz4KICAgIDxyZWN0IHg9IjEwMDAiIHk9IjEyMCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjQwIiByeD0iMyIvPgogICAgPHJlY3QgeD0iMjAwIiB5PSIzNjAiIHdpZHRoPSI1MCIgaGVpZ2h0PSIzNSIgcng9IjMiLz4KICAgIDxyZWN0IHg9IjEzNTAiIHk9IjEyMCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiByeD0iMyIvPgogIDwvZz4KICA8IS0tIENhcGFjaXRvcnMgKGNpcmNsZXMpIC0tPgogIDxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFhNWE1YSIgc3Ryb2tlLXdpZHRoPSIxLjUiPgogICAgPGNpcmNsZSBjeD0iNTUwIiBjeT0iMjAwIiByPSIxMiIvPgogICAgPGNpcmNsZSBjeD0iNTUwIiBjeT0iMjAwIiByPSI2IiBmaWxsPSIjMGQzMDMwIi8+CiAgICA8Y2lyY2xlIGN4PSI3NTAiIGN5PSIzMDAiIHI9IjEyIi8+CiAgICA8Y2lyY2xlIGN4PSI3NTAiIGN5PSIzMDAiIHI9IjYiIGZpbGw9IiMwZDMwMzAiLz4KICAgIDxjaXJjbGUgY3g9IjExMDAiIGN5PSIyMDAiIHI9IjEyIi8+CiAgICA8Y2lyY2xlIGN4PSIxMTAwIiBjeT0iMjAwIiByPSI2IiBmaWxsPSIjMGQzMDMwIi8+CiAgICA8Y2lyY2xlIGN4PSI0NTAiIGN5PSIzNTAiIHI9IjgiLz4KICAgIDxjaXJjbGUgY3g9IjEzMDAiIGN5PSIzNTAiIHI9IjgiLz4KICA8L2c+CiAgPCEtLSBHbG93aW5nIG5vZGVzIC0tPgogIDxnIGZpbHRlcj0idXJsKCNnbG93KSI+CiAgICA8Y2lyY2xlIGN4PSIyMDAiIGN5PSIyMDAiIHI9IjUiIGZpbGw9IiNlOGZmNDciIG9wYWNpdHk9IjAuOCIvPgogICAgPGNpcmNsZSBjeD0iNzAwIiBjeT0iMjAwIiByPSI1IiBmaWxsPSIjNDdmZmNjIiBvcGFjaXR5PSIwLjciLz4KICAgIDxjaXJjbGUgY3g9IjkwMCIgY3k9IjE1MCIgcj0iNCIgZmlsbD0iI2U4ZmY0NyIgb3BhY2l0eT0iMC42Ii8+CiAgICA8Y2lyY2xlIGN4PSIxMjAwIiBjeT0iMjUwIiByPSI1IiBmaWxsPSIjNDdiOGZmIiBvcGFjaXR5PSIwLjciLz4KICAgIDxjaXJjbGUgY3g9IjE0NTAiIGN5PSIzMDAiIHI9IjUiIGZpbGw9IiNlOGZmNDciIG9wYWNpdHk9IjAuNiIvPgogICAgPGNpcmNsZSBjeD0iMzAwIiBjeT0iMzAwIiByPSI0IiBmaWxsPSIjNDdmZmNjIiBvcGFjaXR5PSIwLjYiLz4KICAgIDxjaXJjbGUgY3g9IjgwMCIgY3k9IjIwMCIgcj0iNCIgZmlsbD0iI2ZmNDc0NyIgb3BhY2l0eT0iMC41Ii8+CiAgICA8Y2lyY2xlIGN4PSIxMDAwIiBjeT0iMzAwIiByPSI0IiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjYiLz4KICA8L2c+CiAgPCEtLSBEYXRhIGZsb3cgYW5pbWF0aW9uIGRvdHMgKGp1c3Qgc3RhdGljIHBvc2l0aW9ucykgLS0+CiAgPGNpcmNsZSBjeD0iNDAwIiBjeT0iMjUwIiByPSIzIiBmaWxsPSIjZThmZjQ3IiBvcGFjaXR5PSIwLjUiLz4KICA8Y2lyY2xlIGN4PSI2MDAiIGN5PSIyMDAiIHI9IjMiIGZpbGw9IiM0N2ZmY2MiIG9wYWNpdHk9IjAuNCIvPgogIDxjaXJjbGUgY3g9IjExMDAiIGN5PSIzMDAiIHI9IjMiIGZpbGw9IiNlOGZmNDciIG9wYWNpdHk9IjAuNSIvPgogIDxjaXJjbGUgY3g9IjEzMDAiIGN5PSIyNTAiIHI9IjMiIGZpbGw9IiM0N2I4ZmYiIG9wYWNpdHk9IjAuNCIvPgogIDwhLS0gQ29ybmVyIGRlY29yYXRpb25zIC0tPgogIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iNjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBkNDA0MCIgc3Ryb2tlLXdpZHRoPSIxIiBvcGFjaXR5PSIwLjUiLz4KICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9IjQwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwZDQwNDAiIHN0cm9rZS13aWR0aD0iMSIgb3BhY2l0eT0iMC40Ii8+CiAgPGNpcmNsZSBjeD0iMTUwMCIgY3k9IjQyMCIgcj0iODAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBkNDA0MCIgc3Ryb2tlLXdpZHRoPSIxIiBvcGFjaXR5PSIwLjQiLz4KICA8Y2lyY2xlIGN4PSIxNTAwIiBjeT0iNDIwIiByPSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMGQ0MDQwIiBzdHJva2Utd2lkdGg9IjEiIG9wYWNpdHk9IjAuMyIvPgogIDwhLS0gQW1iaWVudCBnbG93IC0tPgogIDxlbGxpcHNlIGN4PSI4OTAiIGN5PSIyMjAiIHJ4PSIyNTAiIHJ5PSIxNTAiIGZpbGw9IiMwMGNjY2MiIG9wYWNpdHk9IjAuMDQiLz4KPC9zdmc+');">
-      <div class="carousel-bg">03</div>
-      <div class="carousel-content">
-        <div class="carousel-label">Available for Hire</div>
-        <div class="carousel-title">Let's build<br/>something <em>great.</em></div>
-        <p class="carousel-desc">Looking for a developer who cares about both engineering quality and user experience? Let's talk.</p>
-        <a href="#contact" class="carousel-cta">Get In Touch →</a>
-      </div>
-    </div>
+    <div class="carousel-slide" role="img" 
+     aria-label="Voya — Sri Lanka's first P2P seat sharing platform for trains and buses" 
+     style="background-image: linear-gradient(to right, rgba(0,0,0,0.2) 35%, rgba(0,0,0,0.1) 100%), url('/assets/voya-banner-image-two.png');
+            background-size: cover;
+            background-position: center;">
+            
+  <div class="carousel-bg">03</div>
+  <div class="carousel-content">
+    <div class="carousel-label">Sri Lanka's 1st P2P Platform</div>
+    <div class="carousel-title">Reserve your <em>Spot,</em><br/>Travel in Comfort.</div>
+    <p class="carousel-desc">
+      Voya connects passengers to share unutilized seats on trains and buses. 
+      A community-driven solution to make public transport more accessible and comfortable for everyone.
+    </p>
+    <a href="#projects" class="carousel-cta">View Case Study →</a>
+  </div>
+</div>
   </div>
   <button class="carousel-arrow prev" id="prevBtn" aria-label="Previous slide">&#8592;</button>
   <button class="carousel-arrow next" id="nextBtn" aria-label="Next slide">&#8594;</button>
@@ -1278,93 +537,6 @@
   <div>© 2026 Menaka Lakshan — All rights reserved.</div>
   <div>Built with precision & purpose.</div>
 </footer>
-
-<script>
-/* Menaka Lakshan Portfolio — script.js */
-/* menakalakshan.com */
-
-
-  // Hamburger menu
-  const hamburger  = document.getElementById('hamburger');
-  const navLinksEl = document.getElementById('navLinks');
-  const navOverlay = document.getElementById('navOverlay');
-
-  function toggleMenu(open) {
-    hamburger.classList.toggle('open', open);
-    navLinksEl.classList.toggle('open', open);
-    navOverlay.classList.toggle('open', open);
-    hamburger.setAttribute('aria-expanded', String(open));
-    document.body.style.overflow = open ? 'hidden' : '';
-  }
-
-  hamburger.addEventListener('click', () => toggleMenu(!hamburger.classList.contains('open')));
-  navOverlay.addEventListener('click', () => toggleMenu(false));
-  document.querySelectorAll('#navLinks a').forEach(a => {
-    a.addEventListener('click', () => toggleMenu(false));
-  });
-
-// Person background — show only after carousel
-  const personBg = document.getElementById('person-bg');
-  const carouselEl = document.getElementById('carousel');
-
-  function updatePersonBg() {
-    const carouselBottom = carouselEl.getBoundingClientRect().bottom;
-    if (carouselBottom <= 0) {
-      personBg.style.opacity = '1';
-      personBg.style.transition = 'opacity 0.6s ease';
-    } else {
-      personBg.style.opacity = '0';
-    }
-  }
-  personBg.style.opacity = '0';
-  window.addEventListener('scroll', updatePersonBg);
-  updatePersonBg();
-
-  // Carousel
-  const track = document.getElementById('carouselTrack');
-  const dots = document.querySelectorAll('.carousel-dot');
-  const counter = document.getElementById('carouselCounter');
-  let current = 0;
-  const total = 3;
-  let autoTimer;
-
-  function goTo(index) {
-    current = (index + total) % total;
-    track.style.transform = `translateX(-${current * 100}%)`;
-    dots.forEach((d, i) => d.classList.toggle('active', i === current));
-    counter.textContent = String(current + 1).padStart(2, '0') + ' / ' + String(total).padStart(2, '0');
-  }
-
-  document.getElementById('nextBtn').addEventListener('click', () => { goTo(current + 1); resetAuto(); });
-  document.getElementById('prevBtn').addEventListener('click', () => { goTo(current - 1); resetAuto(); });
-  document.querySelectorAll('.carousel-dot').forEach((dot, i) => { dot.addEventListener('click', () => { goTo(i); resetAuto(); }); dot.style.cursor = 'none'; });
-
-  function resetAuto() { clearInterval(autoTimer); autoTimer = setInterval(() => goTo(current + 1), 5000); }
-  resetAuto();
-
-  // Cursor
-  const cursor = document.getElementById('cursor');
-  document.addEventListener('mousemove', e => {
-    cursor.style.left = e.clientX + 'px';
-    cursor.style.top = e.clientY + 'px';
-  });
-  document.querySelectorAll('a, button, .skill-tag, .project-card, .stat-box').forEach(el => {
-    el.addEventListener('mouseenter', () => cursor.classList.add('grow'));
-    el.addEventListener('mouseleave', () => cursor.classList.remove('grow'));
-  });
-
-  // Reveal on scroll
-  const reveals = document.querySelectorAll('.reveal');
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach((entry, i) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), i * 80);
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1 });
-  reveals.forEach(el => observer.observe(el));
-</script>
 </div><!-- end page-content -->
 </body>
 </html>
